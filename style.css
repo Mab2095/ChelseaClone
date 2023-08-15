@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    background-color: #ffff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+
+}
+
+header {
+    justify-items: center;
+    align-items: center;
+}
+
+header .left1 {
+    display: flex;
+    grid-column: 1/ span 4;
+    justify-self: left;
+    align-items: center;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+.left1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header .right1 {
+    display: flex;
+    align-items: center;
+    grid-column: 8/ span 5;
+    gap: 30px;
+}
+
+.right1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.img1 {
+    width: 100px;
+    height: 35px;
+
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    margin: -9px;
+}
+
+nav .ncontent {
+    display: flex;
+    grid-column: 2/ 11;
+    justify-self: center;
+    gap: 50px;
+
+
+}
+
+.ncontent a {
+    text-decoration: none;
+    color: rgb(9, 9, 159);
+    font-weight: 600;
+}
+
+nav .logo {
+    margin-left: 30px;
+    grid-column: 1/ 2;
+    width: 120px;
+    height: 120px;
+
+}
+
+nav .img2 {
+    grid-column: 12;
+    width: 120px;
+    height: 120px;
+}
+
+.mimg {
+    margin-top: 9px;
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-left: 60px;
+    padding-right: 500px;
+    font-size: x-large;
+    font-style: oblique;
+}
